@@ -24,59 +24,28 @@ This repository demonstrates the lifecycle of tickets in the osTicket help desk 
 
 ## Steps and Scenarios
 
-### **1. Configure Departments**
-- Change the **SysAdmins Department** to a **Top Level Department**.
-- DELETE the **Maintenance Department** (not archive).
 
 ---
 
-### **2. Scenario 1: Mobile/Online Banking System Issue**
-**As an End-User**:  
-- Create a ticket with the following details:  
-  - **Issue:** "Entire mobile/online banking system is down."
+This scenario highlights a ticket lifecycle involving a critical issue with the mobile/online banking system. 
 
-**As a Help Desk Agent (John)**:  
-- Observe the ticket’s properties:
-  - **Priority**  
-  - **Department**  
-  - **SLA**  
-  - **Assigned To**  
+- **End-User Perspective**:  
+  A ticket is created with the issue: "Entire mobile/online banking system is down."
+  <p align="center">
+<img src="https://imgur.com/OrvrbZM.png" alt="osTicket Image" height="80%" width="80%">
+</p>
 
-- Set the ticket properties:
-  - **Priority:** Sev-A (1 hour, 24/7)  
-  - **Department:** Online Banking Department  
+  After assigning the ticket, the agent attempts to observe or make changes to it, testing ticket visibility and control.
 
-**As a Help Desk Agent (John)**:  
-- Attempt to observe the ticket again.  
-  - **Question:** Can you view or change the ticket after assigning?  
+- **Help Desk Agent (Jane) Perspective**:  
+  The second agent works on the ticket and resolves the issue, completing the lifecycle of the ticket.
+  <p align="center">
+<img src="https://imgur.com/nbkuXUS.png" alt="osTicket Image" height="80%" width="80%">
+</p>
 
-**As a Help Desk Agent (Jane)**:  
-- Work the ticket to completion.  
-
----
-
-### **3. Scenario 2: Adobe Upgrade Issue**
-**As an End-User**:  
-- Create a ticket with the following details:  
-  - **Issue:** "Accounting department needs Adobe upgrade, broken."
-
-**As a Help Desk Agent (John)**:  
-- Observe the ticket’s properties:
-  - **Priority**  
-  - **Department**  
-  - **SLA**  
-  - **Assigned To**  
-
-- Set the ticket properties:
-  - **Priority:** Sev-B (4 hours, 24/7)  
-  - **Department:** Support  
-
----
 
 ## Summary
 This lab demonstrates a complete ticket lifecycle, including creation, assignment, and resolution, with a focus on managing departments, SLAs, and ticket visibility.
 
 ---
 
-## Visual Demonstrations
-(*Images will be added here later.*)
